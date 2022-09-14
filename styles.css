@@ -65,7 +65,7 @@ body {
   position: absolute;
   top: 10%; 
   left: 10%;
-  transform: translate(50%, 50%);
+  transform: translate(90%, 50%);
   height: 250px;
   width: 400px;
   background-color: #171717;
@@ -189,4 +189,32 @@ button {
   .card {
     flex-direction: column;
   }
+  #result {
+  position: absolute;
+  top: 10%; 
+  left: 10%;
+  transform: translate(0%, 50%);
+  height: 250px;
+  width: 300px;
+  background-color: #171717;
+  border-radius: 15px;
+  border: 2px solid #9dffad;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+  button {
+  padding: 10px 20px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  width: 200px;
+  height: 50px;
+  color: white;
+  background-color: #171717;
+  border-radius: 10px;
+  border: 2px solid #9dffad;
+  cursor: pointer;
+
+}
 }
