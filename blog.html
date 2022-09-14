@@ -13,8 +13,38 @@
         <h1 class="title"><img src="./logo.png"/></h1>
         <button id="blog"><a href="index.html">Home</a></button>
     </header>
-    <main>
-        
+    <main  class="box-container">
+        <div class="blogQuestion">
+            <h1>what is difference between local storage and session storage in javascript?</h1>
+            <h4>Local Storage:</h4>
+            <p>The storage capacity of local storage is 5MB/10MB.As it is not session-based, it must be deleted via javascript or manually.The client  can only read local storage.There is no transfer of data to the server.There are fewer old browsers that support it.</p>
+            <h4>Session Storage:</h4>
+            <p>The storage capacity of session storage is 5MB.It’s session-based and works per window or tab. This means that data is stored only for the duration of a session, i.e., until the browser (or tab) is closed.The client can only read local storage.There is no transfer of data to the server.There are fewer old browsers that support it</p>
+        </div>
+        <div class="blogQuestion">
+            <h1>what is difference between global scope and block scope in javascript?</h1>
+            <h4>global scope:</h4>
+            <p>A variable exists inside or outside a block. If a variable is declared outside all functions or curly braces ({}), it exists in the global scope. The global variables can be accessed by any line of code in the program, including inside blocks.</p>
+            <h4>block scope:</h4>
+            <p>Block scope is also a sub-type of local scope. The block scope can be defined as the scope of the variables inside the curly brackets {}. Now, these curly brackets can be of loops, or conditional statements, or something else. You are only allowed to refer to these variables from within the curly brackets {}.</p>
+        </div>
+        <div class="blogQuestion">
+            <h1>What is an event loop in JavaScript?</h1>
+            <p>The event loop is the secret behind JavaScript’s asynchronous programming. JS executes all operations on a single thread, but using a few smart data structures, 
+                it gives us the illusion of multi-threading. Let’s take a look at what happens on the back-end.The call stack is responsible for keeping track of all the operations in line to be executed. Whenever a function is finished, it is popped from the stack.
+                The event queue is responsible for sending new functions to the stack for processing. It follows the queue data structure to maintain the correct sequence in which all operations should be sent for execution.Whenever an async function is called, it is sent to a browser API. These are APIs built into the browser. Based on the command received from the call stack, the API starts its own single-threaded operation.</p>
+        </div>
+
+        <div class="blogQuestion">
+            <h1>  What is type of undefined in JavaScript?</h1>
+             <p>1) Accessing an uninitialized variable</p>
+             <p>2) Accessing a non-existing property of an object</p>
+             <p>3) Function parameters</p>
+             <p>4) Functions return a value</p>
+             <p>5) Accessing out-of-bounds array elements</p>
+        </div>
+      
+
     </main>
 </body>
 </html>

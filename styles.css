@@ -33,7 +33,15 @@ body {
   backdrop-filter: blur(5px);
   margin-bottom: 30px;
 }
+.blogQuestion{
 
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 16px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
 #display {
   height: 100px;
   display: flex;
@@ -267,5 +275,14 @@ a {
   gap: 10px;
   text-align: center;
   /* justify-content: space-around; */
+}
+
+.blogQuestion{
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 14px;
+  margin-bottom: 30px;
+  margin-top: 50px;
 }
 }
